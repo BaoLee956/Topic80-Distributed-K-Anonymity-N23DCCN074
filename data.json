@@ -1,0 +1,24 @@
+[
+  { "Age": "22", "ZipCode": "70001", "Disease": "Flu" },
+  { "Age": "22", "ZipCode": "70001", "Disease": "Cold" },
+  { "Age": "22", "ZipCode": "70001", "Disease": "Allergy" },
+
+  { "Age": "34", "ZipCode": "70121", "Disease": "Diabetes" },
+  { "Age": "34", "ZipCode": "70123", "Disease": "Hypertension" },
+  { "Age": "34", "ZipCode": "70129", "Disease": "Asthma" },
+
+  { "Age": "45", "ZipCode": "70300", "Disease": "Kidney Disease" },
+  { "Age": "45", "ZipCode": "70300", "Disease": "Back Pain" },
+  { "Age": "45", "ZipCode": "70300", "Disease": "Arthritis" },
+  { "Age": "45", "ZipCode": "70301", "Disease": "Pneumonia" },
+
+  { "Age": "19", "ZipCode": "70410", "Disease": "Flu" },
+  { "Age": "27", "ZipCode": "70522", "Disease": "Gastritis" },
+  { "Age": "30", "ZipCode": "70645", "Disease": "Dermatitis" },
+  { "Age": "38", "ZipCode": "70730", "Disease": "Migraine" },
+  { "Age": "41", "ZipCode": "70812", "Disease": "Anxiety" },
+  { "Age": "52", "ZipCode": "70905", "Disease": "Heart Disease" },
+  { "Age": "56", "ZipCode": "71018", "Disease": "Stroke" },
+  { "Age": "60", "ZipCode": "71190", "Disease": "Cancer" },
+  { "Age": "33", "ZipCode": "71207", "Disease": "Depression" }
+]
