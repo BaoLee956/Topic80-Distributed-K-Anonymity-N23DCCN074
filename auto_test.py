@@ -12,7 +12,7 @@ class TestDistributedKAnonymity(unittest.TestCase):
     def test_1_perfect_k_anonymity(self):
         """Kịch bản 1: Không cần làm mờ (Đã có sẵn >= 3 người)"""
         # Trong data.json có sẵn nhóm người trẻ tuổi ở mã vùng quen thuộc
-        response = requests.get(API_ENDPOINT, params={"age": "22", "zip_code": "70001"})
+        response = requests.get(API_ENDPOINT, params={"age": "30", "zip_code": "70100"})
         self.assertEqual(response.status_code, 200)
         
         data = response.json()
@@ -35,7 +35,7 @@ class TestDistributedKAnonymity(unittest.TestCase):
     def test_3_generalization_sequence(self):
         """Kịch bản 3: Thứ tự ưu tiên làm mờ (ZipCode phải được che trước, Age nới rộng sau)"""
         # Gửi một request cần làm mờ nhẹ
-        response = requests.get(API_ENDPOINT, params={"age": "34", "zip_code": "70129"})
+        response = requests.get(API_ENDPOINT, params={"age": "45", "zip_code": "10001"})
         self.assertEqual(response.status_code, 200)
         
         data = response.json()
@@ -56,7 +56,7 @@ class TestDistributedKAnonymity(unittest.TestCase):
         def make_request():
             nonlocal success_count
             try:
-                res = requests.get(API_ENDPOINT, params={"age": "22", "zip_code": "70001"})
+                res = requests.get(API_ENDPOINT, params={"age": "30", "zip_code": "70100"})
                 if res.status_code == 200 and res.json().get("success"):
                     with lock:
                         success_count += 1

@@ -12,9 +12,9 @@ def add_record(age, zipcode, disease=None):
     global record_id
     data.append({
         "id": record_id,
-        "age": age,
-        "zipcode": str(zipcode),
-        "disease": disease if disease else random.choice(DISEASES)
+        "Age": str(age),
+        "ZipCode": str(zipcode),
+        "Disease": disease if disease else random.choice(DISEASES)
     })
     record_id += 1
 

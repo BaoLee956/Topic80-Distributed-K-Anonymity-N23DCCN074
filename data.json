@@ -1,950 +1,950 @@
 [
     {
         "id": 1,
-        "age": 31,
-        "zipcode": "70711",
-        "disease": "Diabetes"
+        "Age": "68",
+        "ZipCode": "70176",
+        "Disease": "Flu"
     },
     {
         "id": 2,
-        "age": 24,
-        "zipcode": "70263",
-        "disease": "Hypertension"
+        "Age": "53",
+        "ZipCode": "70660",
+        "Disease": "Asthma"
     },
     {
         "id": 3,
-        "age": 52,
-        "zipcode": "70194",
-        "disease": "COVID-19"
+        "Age": "57",
+        "ZipCode": "70732",
+        "Disease": "Hypertension"
     },
     {
         "id": 4,
-        "age": 22,
-        "zipcode": "70702",
-        "disease": "Heart Disease"
+        "Age": "43",
+        "ZipCode": "70841",
+        "Disease": "Flu"
     },
     {
         "id": 5,
-        "age": 51,
-        "zipcode": "70312",
-        "disease": "Diabetes"
+        "Age": "26",
+        "ZipCode": "70890",
+        "Disease": "Cancer"
     },
     {
         "id": 6,
-        "age": 65,
-        "zipcode": "70986",
-        "disease": "Hypertension"
+        "Age": "25",
+        "ZipCode": "70539",
+        "Disease": "Diabetes"
     },
     {
         "id": 7,
-        "age": 44,
-        "zipcode": "70259",
-        "disease": "COVID-19"
+        "Age": "30",
+        "ZipCode": "70473",
+        "Disease": "Heart Disease"
     },
     {
         "id": 8,
-        "age": 78,
-        "zipcode": "70280",
-        "disease": "Cancer"
+        "Age": "26",
+        "ZipCode": "70886",
+        "Disease": "Cancer"
     },
     {
         "id": 9,
-        "age": 26,
-        "zipcode": "70404",
-        "disease": "Asthma"
+        "Age": "27",
+        "ZipCode": "70755",
+        "Disease": "COVID-19"
     },
     {
         "id": 10,
-        "age": 39,
-        "zipcode": "70295",
-        "disease": "Heart Disease"
+        "Age": "48",
+        "ZipCode": "70228",
+        "Disease": "COVID-19"
     },
     {
         "id": 11,
-        "age": 67,
-        "zipcode": "70263",
-        "disease": "Hypertension"
+        "Age": "23",
+        "ZipCode": "70714",
+        "Disease": "Flu"
     },
     {
         "id": 12,
-        "age": 45,
-        "zipcode": "70744",
-        "disease": "Cancer"
+        "Age": "20",
+        "ZipCode": "70418",
+        "Disease": "Hypertension"
     },
     {
         "id": 13,
-        "age": 77,
-        "zipcode": "70255",
-        "disease": "Asthma"
+        "Age": "80",
+        "ZipCode": "70598",
+        "Disease": "COVID-19"
     },
     {
         "id": 14,
-        "age": 34,
-        "zipcode": "70859",
-        "disease": "Asthma"
+        "Age": "62",
+        "ZipCode": "70121",
+        "Disease": "COVID-19"
     },
     {
         "id": 15,
-        "age": 43,
-        "zipcode": "70957",
-        "disease": "Cancer"
+        "Age": "80",
+        "ZipCode": "70647",
+        "Disease": "Hypertension"
     },
     {
         "id": 16,
-        "age": 32,
-        "zipcode": "70602",
-        "disease": "Asthma"
+        "Age": "33",
+        "ZipCode": "70385",
+        "Disease": "Heart Disease"
     },
     {
         "id": 17,
-        "age": 79,
-        "zipcode": "70567",
-        "disease": "Asthma"
+        "Age": "74",
+        "ZipCode": "70617",
+        "Disease": "Asthma"
     },
     {
         "id": 18,
-        "age": 69,
-        "zipcode": "70788",
-        "disease": "Heart Disease"
+        "Age": "63",
+        "ZipCode": "70287",
+        "Disease": "Cancer"
     },
     {
         "id": 19,
-        "age": 35,
-        "zipcode": "70580",
-        "disease": "Heart Disease"
+        "Age": "42",
+        "ZipCode": "70823",
+        "Disease": "Cancer"
     },
     {
         "id": 20,
-        "age": 73,
-        "zipcode": "70770",
-        "disease": "Cancer"
+        "Age": "34",
+        "ZipCode": "70205",
+        "Disease": "Hypertension"
     },
     {
         "id": 21,
-        "age": 30,
-        "zipcode": "70186",
-        "disease": "Flu"
+        "Age": "33",
+        "ZipCode": "70313",
+        "Disease": "Hypertension"
     },
     {
         "id": 22,
-        "age": 44,
-        "zipcode": "70889",
-        "disease": "Cancer"
+        "Age": "43",
+        "ZipCode": "70522",
+        "Disease": "Diabetes"
     },
     {
         "id": 23,
-        "age": 30,
-        "zipcode": "70100",
-        "disease": "Diabetes"
+        "Age": "37",
+        "ZipCode": "70880",
+        "Disease": "Heart Disease"
     },
     {
         "id": 24,
-        "age": 72,
-        "zipcode": "70398",
-        "disease": "Asthma"
+        "Age": "70",
+        "ZipCode": "70304",
+        "Disease": "COVID-19"
     },
     {
         "id": 25,
-        "age": 74,
-        "zipcode": "70640",
-        "disease": "Heart Disease"
+        "Age": "25",
+        "ZipCode": "70867",
+        "Disease": "Hypertension"
     },
     {
         "id": 26,
-        "age": 42,
-        "zipcode": "70866",
-        "disease": "Diabetes"
+        "Age": "25",
+        "ZipCode": "70207",
+        "Disease": "COVID-19"
     },
     {
         "id": 27,
-        "age": 58,
-        "zipcode": "70577",
-        "disease": "Cancer"
+        "Age": "24",
+        "ZipCode": "70385",
+        "Disease": "Asthma"
     },
     {
         "id": 28,
-        "age": 60,
-        "zipcode": "70347",
-        "disease": "Diabetes"
+        "Age": "33",
+        "ZipCode": "70731",
+        "Disease": "Cancer"
     },
     {
         "id": 29,
-        "age": 34,
-        "zipcode": "70738",
-        "disease": "Flu"
+        "Age": "23",
+        "ZipCode": "70877",
+        "Disease": "Heart Disease"
     },
     {
         "id": 30,
-        "age": 68,
-        "zipcode": "70204",
-        "disease": "Asthma"
+        "Age": "31",
+        "ZipCode": "70708",
+        "Disease": "Hypertension"
     },
     {
         "id": 31,
-        "age": 52,
-        "zipcode": "70582",
-        "disease": "Cancer"
+        "Age": "21",
+        "ZipCode": "70670",
+        "Disease": "Heart Disease"
     },
     {
         "id": 32,
-        "age": 42,
-        "zipcode": "70514",
-        "disease": "Hypertension"
+        "Age": "69",
+        "ZipCode": "70262",
+        "Disease": "COVID-19"
     },
     {
         "id": 33,
-        "age": 55,
-        "zipcode": "70413",
-        "disease": "COVID-19"
+        "Age": "67",
+        "ZipCode": "70629",
+        "Disease": "Hypertension"
     },
     {
         "id": 34,
-        "age": 76,
-        "zipcode": "70420",
-        "disease": "Heart Disease"
+        "Age": "77",
+        "ZipCode": "70368",
+        "Disease": "Flu"
     },
     {
         "id": 35,
-        "age": 41,
-        "zipcode": "70892",
-        "disease": "Diabetes"
+        "Age": "41",
+        "ZipCode": "70187",
+        "Disease": "Hypertension"
     },
     {
         "id": 36,
-        "age": 54,
-        "zipcode": "70770",
-        "disease": "Hypertension"
+        "Age": "47",
+        "ZipCode": "70820",
+        "Disease": "COVID-19"
     },
     {
         "id": 37,
-        "age": 25,
-        "zipcode": "70417",
-        "disease": "Heart Disease"
+        "Age": "63",
+        "ZipCode": "70143",
+        "Disease": "Heart Disease"
     },
     {
         "id": 38,
-        "age": 53,
-        "zipcode": "70261",
-        "disease": "Cancer"
+        "Age": "25",
+        "ZipCode": "70271",
+        "Disease": "Heart Disease"
     },
     {
         "id": 39,
-        "age": 32,
-        "zipcode": "70478",
-        "disease": "COVID-19"
+        "Age": "41",
+        "ZipCode": "70260",
+        "Disease": "Heart Disease"
     },
     {
         "id": 40,
-        "age": 26,
-        "zipcode": "70438",
-        "disease": "Flu"
+        "Age": "62",
+        "ZipCode": "70569",
+        "Disease": "Hypertension"
     },
     {
         "id": 41,
-        "age": 32,
-        "zipcode": "70801",
-        "disease": "Hypertension"
+        "Age": "34",
+        "ZipCode": "70497",
+        "Disease": "Heart Disease"
     },
     {
         "id": 42,
-        "age": 23,
-        "zipcode": "70701",
-        "disease": "Diabetes"
+        "Age": "66",
+        "ZipCode": "70145",
+        "Disease": "Heart Disease"
     },
     {
         "id": 43,
-        "age": 23,
-        "zipcode": "70373",
-        "disease": "Diabetes"
+        "Age": "62",
+        "ZipCode": "70121",
+        "Disease": "Hypertension"
     },
     {
         "id": 44,
-        "age": 60,
-        "zipcode": "70574",
-        "disease": "Heart Disease"
+        "Age": "25",
+        "ZipCode": "70646",
+        "Disease": "Hypertension"
     },
     {
         "id": 45,
-        "age": 75,
-        "zipcode": "70832",
-        "disease": "COVID-19"
+        "Age": "78",
+        "ZipCode": "70404",
+        "Disease": "Heart Disease"
     },
     {
         "id": 46,
-        "age": 115,
-        "zipcode": "99999",
-        "disease": "Rare Alien Disease"
+        "Age": "70",
+        "ZipCode": "70491",
+        "Disease": "Diabetes"
     },
     {
         "id": 47,
-        "age": 29,
-        "zipcode": "70738",
-        "disease": "Heart Disease"
+        "Age": "46",
+        "ZipCode": "70780",
+        "Disease": "Flu"
     },
     {
         "id": 48,
-        "age": 30,
-        "zipcode": "70201",
-        "disease": "COVID-19"
+        "Age": "69",
+        "ZipCode": "70214",
+        "Disease": "Diabetes"
     },
     {
         "id": 49,
-        "age": 36,
-        "zipcode": "70684",
-        "disease": "Heart Disease"
+        "Age": "48",
+        "ZipCode": "70258",
+        "Disease": "COVID-19"
     },
     {
         "id": 50,
-        "age": 68,
-        "zipcode": "70849",
-        "disease": "Flu"
+        "Age": "45",
+        "ZipCode": "70646",
+        "Disease": "Heart Disease"
     },
     {
         "id": 51,
-        "age": 54,
-        "zipcode": "70121",
-        "disease": "Diabetes"
+        "Age": "36",
+        "ZipCode": "70613",
+        "Disease": "Asthma"
     },
     {
         "id": 52,
-        "age": 77,
-        "zipcode": "70532",
-        "disease": "Diabetes"
+        "Age": "21",
+        "ZipCode": "70637",
+        "Disease": "COVID-19"
     },
     {
         "id": 53,
-        "age": 71,
-        "zipcode": "70766",
-        "disease": "Flu"
+        "Age": "45",
+        "ZipCode": "70744",
+        "Disease": "Hypertension"
     },
     {
         "id": 54,
-        "age": 35,
-        "zipcode": "70959",
-        "disease": "Diabetes"
+        "Age": "77",
+        "ZipCode": "70655",
+        "Disease": "Asthma"
     },
     {
         "id": 55,
-        "age": 35,
-        "zipcode": "70826",
-        "disease": "Flu"
+        "Age": "29",
+        "ZipCode": "70224",
+        "Disease": "Hypertension"
     },
     {
         "id": 56,
-        "age": 74,
-        "zipcode": "70291",
-        "disease": "Diabetes"
+        "Age": "71",
+        "ZipCode": "70828",
+        "Disease": "Cancer"
     },
     {
         "id": 57,
-        "age": 36,
-        "zipcode": "70632",
-        "disease": "Flu"
+        "Age": "57",
+        "ZipCode": "70323",
+        "Disease": "Flu"
     },
     {
         "id": 58,
-        "age": 65,
-        "zipcode": "70105",
-        "disease": "Diabetes"
+        "Age": "48",
+        "ZipCode": "70131",
+        "Disease": "Diabetes"
     },
     {
         "id": 59,
-        "age": 76,
-        "zipcode": "70854",
-        "disease": "Flu"
+        "Age": "35",
+        "ZipCode": "70502",
+        "Disease": "Asthma"
     },
     {
         "id": 60,
-        "age": 58,
-        "zipcode": "70816",
-        "disease": "COVID-19"
+        "Age": "25",
+        "ZipCode": "70743",
+        "Disease": "Heart Disease"
     },
     {
         "id": 61,
-        "age": 71,
-        "zipcode": "70865",
-        "disease": "Asthma"
+        "Age": "50",
+        "ZipCode": "70209",
+        "Disease": "Asthma"
     },
     {
         "id": 62,
-        "age": 45,
-        "zipcode": "10001",
-        "disease": "COVID-19"
+        "Age": "37",
+        "ZipCode": "70847",
+        "Disease": "Flu"
     },
     {
         "id": 63,
-        "age": 35,
-        "zipcode": "70899",
-        "disease": "Hypertension"
+        "Age": "28",
+        "ZipCode": "70468",
+        "Disease": "Heart Disease"
     },
     {
         "id": 64,
-        "age": 58,
-        "zipcode": "70899",
-        "disease": "Heart Disease"
+        "Age": "60",
+        "ZipCode": "70926",
+        "Disease": "Diabetes"
     },
     {
         "id": 65,
-        "age": 49,
-        "zipcode": "70104",
-        "disease": "Cancer"
+        "Age": "55",
+        "ZipCode": "70255",
+        "Disease": "Flu"
     },
     {
         "id": 66,
-        "age": 77,
-        "zipcode": "70239",
-        "disease": "Diabetes"
+        "Age": "30",
+        "ZipCode": "70180",
+        "Disease": "Diabetes"
     },
     {
         "id": 67,
-        "age": 68,
-        "zipcode": "70422",
-        "disease": "Cancer"
+        "Age": "56",
+        "ZipCode": "70826",
+        "Disease": "Hypertension"
     },
     {
         "id": 68,
-        "age": 26,
-        "zipcode": "70470",
-        "disease": "COVID-19"
+        "Age": "52",
+        "ZipCode": "70724",
+        "Disease": "Flu"
     },
     {
         "id": 69,
-        "age": 32,
-        "zipcode": "70798",
-        "disease": "COVID-19"
+        "Age": "43",
+        "ZipCode": "70305",
+        "Disease": "Asthma"
     },
     {
         "id": 70,
-        "age": 53,
-        "zipcode": "70220",
-        "disease": "Flu"
+        "Age": "45",
+        "ZipCode": "10001",
+        "Disease": "COVID-19"
     },
     {
         "id": 71,
-        "age": 20,
-        "zipcode": "70461",
-        "disease": "Hypertension"
+        "Age": "23",
+        "ZipCode": "70234",
+        "Disease": "Cancer"
     },
     {
         "id": 72,
-        "age": 38,
-        "zipcode": "70609",
-        "disease": "COVID-19"
+        "Age": "45",
+        "ZipCode": "10002",
+        "Disease": "Asthma"
     },
     {
         "id": 73,
-        "age": 28,
-        "zipcode": "70269",
-        "disease": "Flu"
+        "Age": "75",
+        "ZipCode": "70612",
+        "Disease": "Asthma"
     },
     {
         "id": 74,
-        "age": 35,
-        "zipcode": "70255",
-        "disease": "Hypertension"
+        "Age": "70",
+        "ZipCode": "70698",
+        "Disease": "COVID-19"
     },
     {
         "id": 75,
-        "age": 22,
-        "zipcode": "70983",
-        "disease": "Hypertension"
+        "Age": "36",
+        "ZipCode": "70790",
+        "Disease": "Hypertension"
     },
     {
         "id": 76,
-        "age": 67,
-        "zipcode": "70738",
-        "disease": "Cancer"
+        "Age": "21",
+        "ZipCode": "70424",
+        "Disease": "COVID-19"
     },
     {
         "id": 77,
-        "age": 63,
-        "zipcode": "70873",
-        "disease": "Heart Disease"
+        "Age": "57",
+        "ZipCode": "70533",
+        "Disease": "Hypertension"
     },
     {
         "id": 78,
-        "age": 42,
-        "zipcode": "70511",
-        "disease": "Heart Disease"
+        "Age": "43",
+        "ZipCode": "70973",
+        "Disease": "Hypertension"
     },
     {
         "id": 79,
-        "age": 59,
-        "zipcode": "70249",
-        "disease": "Flu"
+        "Age": "50",
+        "ZipCode": "70299",
+        "Disease": "Asthma"
     },
     {
         "id": 80,
-        "age": 45,
-        "zipcode": "10009",
-        "disease": "Diabetes"
+        "Age": "49",
+        "ZipCode": "70129",
+        "Disease": "Cancer"
     },
     {
         "id": 81,
-        "age": 34,
-        "zipcode": "70259",
-        "disease": "Cancer"
+        "Age": "46",
+        "ZipCode": "70143",
+        "Disease": "Flu"
     },
     {
         "id": 82,
-        "age": 43,
-        "zipcode": "70355",
-        "disease": "Cancer"
+        "Age": "61",
+        "ZipCode": "70948",
+        "Disease": "COVID-19"
     },
     {
         "id": 83,
-        "age": 71,
-        "zipcode": "70932",
-        "disease": "Hypertension"
+        "Age": "45",
+        "ZipCode": "70129",
+        "Disease": "Cancer"
     },
     {
         "id": 84,
-        "age": 73,
-        "zipcode": "70779",
-        "disease": "Flu"
+        "Age": "78",
+        "ZipCode": "70702",
+        "Disease": "Flu"
     },
     {
         "id": 85,
-        "age": 68,
-        "zipcode": "70317",
-        "disease": "COVID-19"
+        "Age": "80",
+        "ZipCode": "70879",
+        "Disease": "Diabetes"
     },
     {
         "id": 86,
-        "age": 23,
-        "zipcode": "70760",
-        "disease": "COVID-19"
+        "Age": "72",
+        "ZipCode": "70427",
+        "Disease": "Asthma"
     },
     {
         "id": 87,
-        "age": 20,
-        "zipcode": "70305",
-        "disease": "Heart Disease"
+        "Age": "61",
+        "ZipCode": "70320",
+        "Disease": "COVID-19"
     },
     {
         "id": 88,
-        "age": 21,
-        "zipcode": "70807",
-        "disease": "Hypertension"
+        "Age": "67",
+        "ZipCode": "70663",
+        "Disease": "Flu"
     },
     {
         "id": 89,
-        "age": 66,
-        "zipcode": "70546",
-        "disease": "Asthma"
+        "Age": "30",
+        "ZipCode": "70100",
+        "Disease": "Flu"
     },
     {
         "id": 90,
-        "age": 51,
-        "zipcode": "70590",
-        "disease": "Heart Disease"
+        "Age": "68",
+        "ZipCode": "70606",
+        "Disease": "Hypertension"
     },
     {
         "id": 91,
-        "age": 69,
-        "zipcode": "70253",
-        "disease": "Cancer"
+        "Age": "48",
+        "ZipCode": "70746",
+        "Disease": "Flu"
     },
     {
         "id": 92,
-        "age": 73,
-        "zipcode": "70234",
-        "disease": "Heart Disease"
+        "Age": "53",
+        "ZipCode": "70232",
+        "Disease": "Flu"
     },
     {
         "id": 93,
-        "age": 75,
-        "zipcode": "70251",
-        "disease": "Cancer"
+        "Age": "63",
+        "ZipCode": "70832",
+        "Disease": "Flu"
     },
     {
         "id": 94,
-        "age": 56,
-        "zipcode": "70107",
-        "disease": "Diabetes"
+        "Age": "55",
+        "ZipCode": "70137",
+        "Disease": "Cancer"
     },
     {
         "id": 95,
-        "age": 34,
-        "zipcode": "70302",
-        "disease": "Diabetes"
+        "Age": "67",
+        "ZipCode": "70284",
+        "Disease": "Diabetes"
     },
     {
         "id": 96,
-        "age": 56,
-        "zipcode": "70467",
-        "disease": "Heart Disease"
+        "Age": "24",
+        "ZipCode": "70234",
+        "Disease": "Flu"
     },
     {
         "id": 97,
-        "age": 24,
-        "zipcode": "70810",
-        "disease": "Asthma"
+        "Age": "30",
+        "ZipCode": "70100",
+        "Disease": "Hypertension"
     },
     {
         "id": 98,
-        "age": 32,
-        "zipcode": "70895",
-        "disease": "Heart Disease"
+        "Age": "50",
+        "ZipCode": "70227",
+        "Disease": "COVID-19"
     },
     {
         "id": 99,
-        "age": 49,
-        "zipcode": "70800",
-        "disease": "Flu"
+        "Age": "71",
+        "ZipCode": "70145",
+        "Disease": "COVID-19"
     },
     {
         "id": 100,
-        "age": 38,
-        "zipcode": "70785",
-        "disease": "Asthma"
+        "Age": "44",
+        "ZipCode": "70512",
+        "Disease": "Diabetes"
     },
     {
         "id": 101,
-        "age": 46,
-        "zipcode": "70763",
-        "disease": "Flu"
+        "Age": "23",
+        "ZipCode": "70827",
+        "Disease": "COVID-19"
     },
     {
         "id": 102,
-        "age": 30,
-        "zipcode": "70100",
-        "disease": "Diabetes"
+        "Age": "34",
+        "ZipCode": "70253",
+        "Disease": "Asthma"
     },
     {
         "id": 103,
-        "age": 37,
-        "zipcode": "70278",
-        "disease": "Flu"
+        "Age": "30",
+        "ZipCode": "70848",
+        "Disease": "Flu"
     },
     {
         "id": 104,
-        "age": 22,
-        "zipcode": "70272",
-        "disease": "Heart Disease"
+        "Age": "115",
+        "ZipCode": "99999",
+        "Disease": "Rare Alien Disease"
     },
     {
         "id": 105,
-        "age": 20,
-        "zipcode": "70278",
-        "disease": "Flu"
+        "Age": "54",
+        "ZipCode": "70219",
+        "Disease": "Asthma"
     },
     {
         "id": 106,
-        "age": 29,
-        "zipcode": "70982",
-        "disease": "Heart Disease"
+        "Age": "30",
+        "ZipCode": "70100",
+        "Disease": "Heart Disease"
     },
     {
         "id": 107,
-        "age": 50,
-        "zipcode": "70111",
-        "disease": "Asthma"
+        "Age": "35",
+        "ZipCode": "70918",
+        "Disease": "Flu"
     },
     {
         "id": 108,
-        "age": 47,
-        "zipcode": "70116",
-        "disease": "Hypertension"
+        "Age": "55",
+        "ZipCode": "70346",
+        "Disease": "COVID-19"
     },
     {
         "id": 109,
-        "age": 40,
-        "zipcode": "70363",
-        "disease": "Diabetes"
+        "Age": "33",
+        "ZipCode": "70586",
+        "Disease": "Diabetes"
     },
     {
         "id": 110,
-        "age": 23,
-        "zipcode": "70228",
-        "disease": "COVID-19"
+        "Age": "40",
+        "ZipCode": "70154",
+        "Disease": "Heart Disease"
     },
     {
         "id": 111,
-        "age": 40,
-        "zipcode": "70718",
-        "disease": "Asthma"
+        "Age": "53",
+        "ZipCode": "70239",
+        "Disease": "Asthma"
     },
     {
         "id": 112,
-        "age": 35,
-        "zipcode": "70861",
-        "disease": "Heart Disease"
+        "Age": "68",
+        "ZipCode": "70420",
+        "Disease": "Asthma"
     },
     {
         "id": 113,
-        "age": 30,
-        "zipcode": "70100",
-        "disease": "Hypertension"
+        "Age": "41",
+        "ZipCode": "70856",
+        "Disease": "Hypertension"
     },
     {
         "id": 114,
-        "age": 33,
-        "zipcode": "70188",
-        "disease": "Cancer"
+        "Age": "21",
+        "ZipCode": "70188",
+        "Disease": "Diabetes"
     },
     {
         "id": 115,
-        "age": 77,
-        "zipcode": "70197",
-        "disease": "Asthma"
+        "Age": "55",
+        "ZipCode": "70289",
+        "Disease": "Asthma"
     },
     {
         "id": 116,
-        "age": 45,
-        "zipcode": "10002",
-        "disease": "COVID-19"
+        "Age": "76",
+        "ZipCode": "70141",
+        "Disease": "Hypertension"
     },
     {
         "id": 117,
-        "age": 58,
-        "zipcode": "70703",
-        "disease": "Diabetes"
+        "Age": "44",
+        "ZipCode": "70990",
+        "Disease": "Cancer"
     },
     {
         "id": 118,
-        "age": 38,
-        "zipcode": "70241",
-        "disease": "COVID-19"
+        "Age": "35",
+        "ZipCode": "70498",
+        "Disease": "Heart Disease"
     },
     {
         "id": 119,
-        "age": 36,
-        "zipcode": "70939",
-        "disease": "Flu"
+        "Age": "69",
+        "ZipCode": "70179",
+        "Disease": "Cancer"
     },
     {
         "id": 120,
-        "age": 36,
-        "zipcode": "70331",
-        "disease": "Cancer"
+        "Age": "64",
+        "ZipCode": "70724",
+        "Disease": "Hypertension"
     },
     {
         "id": 121,
-        "age": 43,
-        "zipcode": "70496",
-        "disease": "Flu"
+        "Age": "49",
+        "ZipCode": "70325",
+        "Disease": "Diabetes"
     },
     {
         "id": 122,
-        "age": 30,
-        "zipcode": "70100",
-        "disease": "Hypertension"
+        "Age": "46",
+        "ZipCode": "70964",
+        "Disease": "Cancer"
     },
     {
         "id": 123,
-        "age": 70,
-        "zipcode": "70339",
-        "disease": "Cancer"
+        "Age": "39",
+        "ZipCode": "70634",
+        "Disease": "COVID-19"
     },
     {
         "id": 124,
-        "age": 78,
-        "zipcode": "70371",
-        "disease": "Cancer"
+        "Age": "59",
+        "ZipCode": "70905",
+        "Disease": "Diabetes"
     },
     {
         "id": 125,
-        "age": 43,
-        "zipcode": "70855",
-        "disease": "Hypertension"
+        "Age": "75",
+        "ZipCode": "70857",
+        "Disease": "COVID-19"
     },
     {
         "id": 126,
-        "age": 79,
-        "zipcode": "70742",
-        "disease": "Diabetes"
+        "Age": "78",
+        "ZipCode": "70500",
+        "Disease": "COVID-19"
     },
     {
         "id": 127,
-        "age": 79,
-        "zipcode": "70693",
-        "disease": "Heart Disease"
+        "Age": "41",
+        "ZipCode": "70396",
+        "Disease": "Heart Disease"
     },
     {
         "id": 128,
-        "age": 73,
-        "zipcode": "70332",
-        "disease": "Asthma"
+        "Age": "70",
+        "ZipCode": "70672",
+        "Disease": "Asthma"
     },
     {
         "id": 129,
-        "age": 79,
-        "zipcode": "70922",
-        "disease": "Heart Disease"
+        "Age": "39",
+        "ZipCode": "70897",
+        "Disease": "Flu"
     },
     {
         "id": 130,
-        "age": 63,
-        "zipcode": "70421",
-        "disease": "Diabetes"
+        "Age": "60",
+        "ZipCode": "70556",
+        "Disease": "Diabetes"
     },
     {
         "id": 131,
-        "age": 29,
-        "zipcode": "70644",
-        "disease": "Asthma"
+        "Age": "32",
+        "ZipCode": "70337",
+        "Disease": "Cancer"
     },
     {
         "id": 132,
-        "age": 66,
-        "zipcode": "70913",
-        "disease": "Hypertension"
+        "Age": "80",
+        "ZipCode": "70704",
+        "Disease": "Cancer"
     },
     {
         "id": 133,
-        "age": 24,
-        "zipcode": "70198",
-        "disease": "Diabetes"
+        "Age": "45",
+        "ZipCode": "10009",
+        "Disease": "Asthma"
     },
     {
         "id": 134,
-        "age": 50,
-        "zipcode": "70737",
-        "disease": "Diabetes"
+        "Age": "61",
+        "ZipCode": "70702",
+        "Disease": "COVID-19"
     },
     {
         "id": 135,
-        "age": 60,
-        "zipcode": "70832",
-        "disease": "Diabetes"
+        "Age": "59",
+        "ZipCode": "70552",
+        "Disease": "Heart Disease"
     },
     {
         "id": 136,
-        "age": 58,
-        "zipcode": "70531",
-        "disease": "Heart Disease"
+        "Age": "73",
+        "ZipCode": "70282",
+        "Disease": "Diabetes"
     },
     {
         "id": 137,
-        "age": 26,
-        "zipcode": "70623",
-        "disease": "Heart Disease"
+        "Age": "65",
+        "ZipCode": "70871",
+        "Disease": "Hypertension"
     },
     {
         "id": 138,
-        "age": 73,
-        "zipcode": "70174",
-        "disease": "Diabetes"
+        "Age": "61",
+        "ZipCode": "70710",
+        "Disease": "Hypertension"
     },
     {
         "id": 139,
-        "age": 40,
-        "zipcode": "70810",
-        "disease": "Heart Disease"
+        "Age": "40",
+        "ZipCode": "70835",
+        "Disease": "Diabetes"
     },
     {
         "id": 140,
-        "age": 36,
-        "zipcode": "70147",
-        "disease": "Asthma"
+        "Age": "71",
+        "ZipCode": "70850",
+        "Disease": "Heart Disease"
     },
     {
         "id": 141,
-        "age": 78,
-        "zipcode": "70788",
-        "disease": "Diabetes"
+        "Age": "79",
+        "ZipCode": "70822",
+        "Disease": "COVID-19"
     },
     {
         "id": 142,
-        "age": 46,
-        "zipcode": "70986",
-        "disease": "COVID-19"
+        "Age": "33",
+        "ZipCode": "70156",
+        "Disease": "Asthma"
     },
     {
         "id": 143,
-        "age": 64,
-        "zipcode": "70812",
-        "disease": "Cancer"
+        "Age": "41",
+        "ZipCode": "70144",
+        "Disease": "COVID-19"
     },
     {
         "id": 144,
-        "age": 25,
-        "zipcode": "70775",
-        "disease": "Flu"
+        "Age": "31",
+        "ZipCode": "70338",
+        "Disease": "COVID-19"
     },
     {
         "id": 145,
-        "age": 44,
-        "zipcode": "70165",
-        "disease": "Flu"
+        "Age": "51",
+        "ZipCode": "70450",
+        "Disease": "COVID-19"
     },
     {
         "id": 146,
-        "age": 63,
-        "zipcode": "70989",
-        "disease": "Flu"
+        "Age": "21",
+        "ZipCode": "70796",
+        "Disease": "COVID-19"
     },
     {
         "id": 147,
-        "age": 42,
-        "zipcode": "70420",
-        "disease": "Cancer"
+        "Age": "53",
+        "ZipCode": "70677",
+        "Disease": "COVID-19"
     },
     {
         "id": 148,
-        "age": 73,
-        "zipcode": "70781",
-        "disease": "Flu"
+        "Age": "61",
+        "ZipCode": "70470",
+        "Disease": "Diabetes"
     },
     {
         "id": 149,
-        "age": 45,
-        "zipcode": "70753",
-        "disease": "Heart Disease"
+        "Age": "25",
+        "ZipCode": "70119",
+        "Disease": "Diabetes"
     },
     {
         "id": 150,
-        "age": 72,
-        "zipcode": "70468",
-        "disease": "COVID-19"
+        "Age": "59",
+        "ZipCode": "70791",
+        "Disease": "Hypertension"
     },
     {
         "id": 151,
-        "age": 62,
-        "zipcode": "70399",
-        "disease": "COVID-19"
+        "Age": "33",
+        "ZipCode": "70637",
+        "Disease": "Cancer"
     },
     {
         "id": 152,
-        "age": 48,
-        "zipcode": "70618",
-        "disease": "Flu"
+        "Age": "30",
+        "ZipCode": "70100",
+        "Disease": "Asthma"
     },
     {
         "id": 153,
-        "age": 40,
-        "zipcode": "70642",
-        "disease": "Hypertension"
+        "Age": "23",
+        "ZipCode": "70857",
+        "Disease": "Heart Disease"
     },
     {
         "id": 154,
-        "age": 36,
-        "zipcode": "70454",
-        "disease": "Cancer"
+        "Age": "69",
+        "ZipCode": "70971",
+        "Disease": "Hypertension"
     },
     {
         "id": 155,
-        "age": 66,
-        "zipcode": "70945",
-        "disease": "Flu"
+        "Age": "25",
+        "ZipCode": "70487",
+        "Disease": "Diabetes"
     },
     {
         "id": 156,
-        "age": 69,
-        "zipcode": "70264",
-        "disease": "Flu"
+        "Age": "25",
+        "ZipCode": "70432",
+        "Disease": "Hypertension"
     },
     {
         "id": 157,
-        "age": 32,
-        "zipcode": "70342",
-        "disease": "Heart Disease"
+        "Age": "58",
+        "ZipCode": "70539",
+        "Disease": "Asthma"
     },
     {
         "id": 158,
-        "age": 61,
-        "zipcode": "70498",
-        "disease": "COVID-19"
+        "Age": "31",
+        "ZipCode": "70728",
+        "Disease": "Flu"
     }
 ]
