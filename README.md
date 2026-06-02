@@ -12,7 +12,6 @@ The network is designed to be **fault-tolerant**: if a node fails, other nodes c
 ## Project Structure
 - **app.py**: FastAPI node implementation (API + anonymization algorithm + peer-to-peer querying).
 - **data.json**: Raw test dataset (array of JSON objects with `Age`, `ZipCode`, `Disease`).
-- **test_runner.py**: Calls Node **8001** and prints readable results for two test cases.
 - **auto_test.py**: End-to-end orchestration script to start 3 nodes, run tests, simulate node failure, and teardown.
 
 ---
