@@ -167,78 +167,92 @@ def create_app(port: int, peers: List[str]) -> FastAPI:
 
     @app.get("/anonymize")
     def anonymize(
-        age: str = Query(..., description="Age: '22' hoặc '34±5'"),
-        zip_code: str = Query(..., description="ZipCode: '70001' hoặc '70***'"),
-    ) -> Dict:
-        current_age = age
-        current_zip = zip_code
+            age: str = Query(..., description="Age: '30' hoặc '34±5'"),
+            zip_code: str = Query(..., description="ZipCode: '70100' hoặc '70***'"),
+        ) -> Dict:
+            current_age = age
+            current_zip = zip_code
 
-        info_loss = 0
-        per_node_counts: Dict[str, int] = {}
+            info_loss = 0
+            node_contributions: Dict[str, int] = {}
 
-        records: List[HealthRecord] = app.state.records
-        peers_list: List[str] = app.state.peers
-        self_port: int = app.state.port
+            records: List[HealthRecord] = app.state.records
+            peers_list: List[str] = app.state.peers
+            self_port: int = app.state.port
 
-        for iteration in range(1, MAX_ITERATIONS + 1):
-            per_node_counts = {}
+            for iteration in range(1, MAX_ITERATIONS + 1):
+                node_contributions = {}
 
-            local_count = _count_matching_records(records, current_age, current_zip)
-            per_node_counts[f"local:{self_port}"] = local_count
+                # 1. Đếm dữ liệu cục bộ tại Node này (Định dạng tên: "Node 8001")
+                local_count = _count_matching_records(records, current_age, current_zip)
+                node_contributions[f"Node {self_port}"] = local_count
 
-            for peer in peers_list:
-                url = f"{peer}/count_quasi"
-                try:
-                    resp = requests.get(
-                        url,
-                        params={"age": current_age, "zip_code": current_zip},
-                        timeout=2,
-                    )
-                    resp.raise_for_status()
-                    peer_count = int(resp.json().get("count", 0))
-                except requests.exceptions.RequestException:
-                    print(
-                        f"[CẢNH BÁO] Peer {peer} không phản hồi hoặc lỗi. "
-                        "Gán count=0 và tiếp tục..."
-                    )
-                    peer_count = 0
-                except (ValueError, TypeError):
-                    print(
-                        f"[CẢNH BÁO] Peer {peer} trả về dữ liệu không hợp lệ. "
-                        "Gán count=0 và tiếp tục..."
-                    )
-                    peer_count = 0
+                # 2. Hỏi dữ liệu từ các Node khác (Peers)
+                for peer in peers_list:
+                    url = f"{peer}/count_quasi"
+                    try:
+                        resp = requests.get(
+                            url,
+                            params={"age": current_age, "zip_code": current_zip},
+                            timeout=2,
+                        )
+                        resp.raise_for_status()
+                        peer_count = int(resp.json().get("count", 0))
+                    except requests.exceptions.RequestException:
+                        print(
+                            f"[CẢNH BÁO] Peer {peer} không phản hồi hoặc lỗi. "
+                            "Gán count=0 và tiếp tục..."
+                        )
+                        peer_count = 0
+                    except (ValueError, TypeError):
+                        print(
+                            f"[CẢNH BÁO] Peer {peer} trả về dữ liệu không hợp lệ. "
+                            "Gán count=0 và tiếp tục..."
+                        )
+                        peer_count = 0
 
-                per_node_counts[peer] = peer_count
+                    # Lấy 4 số cuối của URL để hiển thị tên Node cho đẹp (VD: "Node 8002")
+                    peer_port = peer[-4:] if len(peer) >= 4 else "Unknown"
+                    node_contributions[f"Node {peer_port}"] = peer_count
 
-            total_count = sum(per_node_counts.values())
-            if total_count >= K_ANONYMITY:
-                return {
-                    "success": True,
-                    "total_count": total_count,
-                    "info_loss": info_loss,
-                    "iterations": iteration,
-                    "original_data": {"age": age, "zip_code": zip_code},
-                    "generalized_data": {
-                        "age": current_age,
-                        "zip_code": current_zip,
-                    },
-                    "per_node_counts": per_node_counts,
-                }
+                total_count = sum(node_contributions.values())
+                
+                # 3. Kiểm tra điều kiện K-Anonymity
+                if total_count >= K_ANONYMITY:
+                    return {
+                        "success": True,
+                        "total_count": total_count,
+                        "info_loss": info_loss,
+                        "iterations": iteration,
+                        "original_data": {"age": age, "zip_code": zip_code},
+                        "generalized_data": {
+                            "age": current_age,
+                            "zip_code": current_zip,
+                        },
+                        "node_contributions": node_contributions, # Khớp chuẩn với Jupyter Notebook
+                    }
 
-            current_age, current_zip, inc = generalize(current_age, current_zip)
-            info_loss += inc
+                # 4. Thuật toán làm mờ dữ liệu
+                current_age, current_zip, inc = generalize(current_age, current_zip)
+                info_loss += inc
 
+            # Trả về kết quả nếu vượt quá số vòng lặp tối đa
+            return {
+                "success": False,
+                "total_count": sum(node_contributions.values()) if node_contributions else 0,
+                "info_loss": info_loss,
+                "iterations": MAX_ITERATIONS,
+                "original_data": {"age": age, "zip_code": zip_code},
+                "generalized_data": {"age": current_age, "zip_code": current_zip},
+                "node_contributions": node_contributions, # Khớp chuẩn với Jupyter Notebook
+            }
+    @app.get("/debug/data")
+    def get_local_data():
         return {
-            "success": False,
-            "total_count": sum(per_node_counts.values()) if per_node_counts else 0,
-            "info_loss": info_loss,
-            "iterations": MAX_ITERATIONS,
-            "original_data": {"age": age, "zip_code": zip_code},
-            "generalized_data": {"age": current_age, "zip_code": current_zip},
-            "per_node_counts": per_node_counts,
+            "node_port": port,
+            "total_local_records": len(app.state.records),
+            "data": app.state.records
         }
-
     return app
 
 
